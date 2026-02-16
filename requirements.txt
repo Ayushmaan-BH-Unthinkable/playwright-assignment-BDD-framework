@@ -1,5 +1,6 @@
 playwright
 pytest
+pytest-playwright
 pytest-bdd
 allure-pytest
 faker
