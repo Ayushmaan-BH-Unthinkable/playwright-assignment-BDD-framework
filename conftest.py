@@ -9,7 +9,7 @@ logger = get_logger(__name__)
 @pytest.fixture(scope="function")
 def page(page, request):
     playwright = sync_playwright().start()
-    browser = playwright.chromium.launch(headless=False)
+    browser = playwright.chromium.launch(headless=true)
     context = browser.new_context()
     page = context.new_page()
 
