@@ -1,3 +1,5 @@
+from operator import truediv
+
 import pytest
 import os
 import allure
@@ -9,7 +11,7 @@ logger = get_logger(__name__)
 @pytest.fixture(scope="function")
 def page(page, request):
     playwright = sync_playwright().start()
-    browser = playwright.chromium.launch(headless=False)
+    browser = playwright.chromium.launch(headless=True)
     context = browser.new_context()
     page = context.new_page()
 
