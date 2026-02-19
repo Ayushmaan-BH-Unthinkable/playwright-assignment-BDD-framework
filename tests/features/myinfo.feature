@@ -20,10 +20,10 @@ Feature: Orange HRM - MyInfo Module
     Then upload should be "<result>"
 
     Examples:
-      | file_path                     | result  |
-      | tests/files/photo1.jpg        | success |
-      | tests/files/photo2.gif        | success |
-      | tests/files/photo3.png        | success |
-      | tests/files/photo4.png        | fail    |
-      | tests/files/photo5.gif        | fail    |
-      | tests/files/vs_BuildTools.exe | fail    |
+      | file_path               | result  |
+      | files/photo1.jpg        | success |
+      | files/photo2.gif        | success |
+      | files/photo3.png        | success |
+      | files/photo4.png        | fail    |
+      | files/photo5.gif        | fail    |
+      | files/vs_BuildTools.exe | fail    |

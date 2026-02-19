@@ -1,6 +1,6 @@
 # Prosper Playwright Enterprise BDD Framework
 
-## 🚀 Features
+## Features
 - Page Object Model (POM)
 - Pytest + Pytest-BDD
 - Allure Reporting
@@ -9,12 +9,12 @@
 - Environment Config
 - GitHub Ready Structure
 
-## ▶ Install
+## Install
 pip install -r requirements.txt
 playwright install
 
-## ▶ Run Tests
+## Run Tests
 pytest
 
-## ▶ Generate Allure Report
+## Generate Allure Report
 allure serve allure-results
